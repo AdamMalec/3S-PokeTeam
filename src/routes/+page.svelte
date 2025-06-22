@@ -1,2 +1,8 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script lang="ts">
+	import '../app.css';
+	import { Button } from '$lib/components/ui/button/index.js';
+</script>
+
+<h1 class="text-3xl text-center">Welcome to PokeTeam</h1>
+<p class="text-balance text-center text-lg">Create an account to make your own pokemon team with your own unique URL</p>
+<Button href="/login" class="p-6 text-base uppercase">Create an account</Button>

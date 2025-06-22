@@ -117,21 +117,26 @@
   }
   body {
     @apply bg-background text-foreground;
+    min-width: 320px;
+    min-height: 100vh;
+    margin: 0;
   }
-  a {
+  /* a {
     text-decoration: underline;
-    text-underline-offset: 0.25em;
-  }
+    text-underline-offset: 0.5em;
+  } */
 }
 
 /* CSS utilities 👇*/
 /* console.log() for CSS */
-*,
+
+/* *,
 *::before,
 *::after {
   box-sizing: border-box;
   outline: 2px solid crimson;
-}
+} */
+
 
 /* Modern version of container class according Kevin Powell */
 /* https://www.youtube.com/watch?v=DGOeyJjq80g&list=LL&index=8&t=1063s */
